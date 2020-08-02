@@ -29,7 +29,6 @@
 #include "Layout.h"
 
 static const int k_splitter_size = 6;
-static const wchar_t* k_layout_child_wnd_class = L"layout_child_wnd";
 
 static bool split_child_layout_strings(std::string const& input, std::string& ch1, std::string& ch2) {
   auto len = static_cast<int>(input.length());
